@@ -25,7 +25,7 @@ if (!Element.prototype.matches) {
 AFRAME.registerComponent('teleport-controls', {
   schema: {
     type: {default: 'parabolic', oneOf: ['parabolic', 'line']},
-    button: {default: 'trackpad', oneOf: ['trackpad', 'trigger', 'grip', 'menu']},
+    button: {default: 'trigger', oneOf: ['trackpad', 'trigger', 'grip', 'menu']},
     startEvents: {type: 'array'},
     endEvents: {type: 'array'},
     collisionEntities: {default: ''},
